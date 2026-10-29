@@ -1,0 +1,23 @@
+[task]
+name = "rustlabs-samples/json-agg-opt"
+description = "Optimize a correct-but-slow C JSON-lines log aggregator while keeping its output byte-identical."
+keywords = ["c", "performance", "optimization", "parsing", "data-processing"]
+
+[metadata]
+difficulty = "hard"
+category = "software_engineering"
+domain = "Performance optimization"
+tags = ["c", "performance", "optimization", "parsing", "data-processing"]
+
+[agent]
+timeout_sec = 72000.0
+
+[verifier]
+timeout_sec = 900.0
+
+[environment]
+network_mode = "no-network"
+cpus = 2
+memory_mb = 2048
+storage_mb = 4096
+build_timeout_sec = 900.0

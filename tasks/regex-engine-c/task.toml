@@ -1,0 +1,23 @@
+[task]
+name = "rustlabs-samples/regex-engine-c"
+description = "Implement a POSIX-ERE-subset regular-expression engine from scratch in C."
+keywords = ["c", "regex", "automata", "parsing", "systems-programming"]
+
+[metadata]
+difficulty = "very_hard"
+category = "software_engineering"
+domain = "Programming language / engine reimplementation"
+tags = ["c", "regex", "automata", "parsing", "systems-programming"]
+
+[agent]
+timeout_sec = 72000.0
+
+[verifier]
+timeout_sec = 600.0
+
+[environment]
+network_mode = "no-network"
+cpus = 2
+memory_mb = 2048
+storage_mb = 4096
+build_timeout_sec = 1200.0
